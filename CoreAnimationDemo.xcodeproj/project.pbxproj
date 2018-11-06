@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1BB2D4215F27B6005D5A40 /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1BB2D3215F27B6005D5A40 /* CAGradientLayerViewController.m */; };
+		4A24602C216B30DA00FA2B25 /* CAReplicatorlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A24602B216B30DA00FA2B25 /* CAReplicatorlayerViewController.m */; };
 		4A265637215E069800F8A92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A265636215E069800F8A92F /* AppDelegate.m */; };
 		4A26563A215E069800F8A92F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A265639215E069800F8A92F /* ViewController.m */; };
 		4A26563D215E069800F8A92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A26563B215E069800F8A92F /* Main.storyboard */; };
@@ -15,6 +17,16 @@
 		4A265645215E069900F8A92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A265644215E069900F8A92F /* main.m */; };
 		4A26564F215E069900F8A92F /* CoreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A26564E215E069900F8A92F /* CoreAnimationDemoTests.m */; };
 		4A26565A215E069900F8A92F /* CoreAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A265659215E069900F8A92F /* CoreAnimationDemoUITests.m */; };
+		4A265669215E0A9900F8A92F /* CAShapeLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A265668215E0A9900F8A92F /* CAShapeLayerViewController.m */; };
+		4A26566C215E0F8100F8A92F /* CAtextLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A26566B215E0F8100F8A92F /* CAtextLayerViewController.m */; };
+		4A29C63E216AF93C00598D3C /* CATransformLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A29C63D216AF93C00598D3C /* CATransformLayerViewController.m */; };
+		4AC95D062191790A006745CC /* ScrollLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95D052191790A006745CC /* ScrollLayer.m */; };
+		4AC95D0921917C0D006745CC /* CAScrollLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95D0821917C0D006745CC /* CAScrollLayerViewController.m */; };
+		4AC95D0C219187BE006745CC /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95D0B219187BE006745CC /* CAEmitterLayerViewController.m */; };
+		4AC95D0E219189FD006745CC /* DazRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC95D0D219189FD006745CC /* DazRing.png */; };
+		4AC95D1021918A0D006745CC /* DazStarOutline.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC95D0F21918A0C006745CC /* DazStarOutline.png */; };
+		4AC95D1321918B4F006745CC /* TiledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95D1221918B4F006745CC /* TiledView.m */; };
+		4AC95D1621918DA6006745CC /* CATiledLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC95D1521918DA6006745CC /* CATiledLayerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A1BB2D2215F27B6005D5A40 /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		4A1BB2D3215F27B6005D5A40 /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		4A24602A216B30DA00FA2B25 /* CAReplicatorlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAReplicatorlayerViewController.h; sourceTree = "<group>"; };
+		4A24602B216B30DA00FA2B25 /* CAReplicatorlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAReplicatorlayerViewController.m; sourceTree = "<group>"; };
 		4A265632215E069800F8A92F /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A265635215E069800F8A92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4A265636215E069800F8A92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +67,24 @@
 		4A265655215E069900F8A92F /* CoreAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A265659215E069900F8A92F /* CoreAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationDemoUITests.m; sourceTree = "<group>"; };
 		4A26565B215E069900F8A92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A265667215E0A9900F8A92F /* CAShapeLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerViewController.h; sourceTree = "<group>"; };
+		4A265668215E0A9900F8A92F /* CAShapeLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerViewController.m; sourceTree = "<group>"; };
+		4A26566A215E0F8100F8A92F /* CAtextLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAtextLayerViewController.h; sourceTree = "<group>"; };
+		4A26566B215E0F8100F8A92F /* CAtextLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAtextLayerViewController.m; sourceTree = "<group>"; };
+		4A29C63C216AF93C00598D3C /* CATransformLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATransformLayerViewController.h; sourceTree = "<group>"; };
+		4A29C63D216AF93C00598D3C /* CATransformLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATransformLayerViewController.m; sourceTree = "<group>"; };
+		4AC95D042191790A006745CC /* ScrollLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollLayer.h; sourceTree = "<group>"; };
+		4AC95D052191790A006745CC /* ScrollLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLayer.m; sourceTree = "<group>"; };
+		4AC95D0721917C0D006745CC /* CAScrollLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerViewController.h; sourceTree = "<group>"; };
+		4AC95D0821917C0D006745CC /* CAScrollLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAScrollLayerViewController.m; sourceTree = "<group>"; };
+		4AC95D0A219187BE006745CC /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		4AC95D0B219187BE006745CC /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		4AC95D0D219189FD006745CC /* DazRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazRing.png; sourceTree = "<group>"; };
+		4AC95D0F21918A0C006745CC /* DazStarOutline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DazStarOutline.png; sourceTree = "<group>"; };
+		4AC95D1121918B4F006745CC /* TiledView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TiledView.h; sourceTree = "<group>"; };
+		4AC95D1221918B4F006745CC /* TiledView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TiledView.m; sourceTree = "<group>"; };
+		4AC95D1421918DA6006745CC /* CATiledLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CATiledLayerViewController.h; sourceTree = "<group>"; };
+		4AC95D1521918DA6006745CC /* CATiledLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATiledLayerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +135,37 @@
 		4A265634215E069800F8A92F /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AC95D042191790A006745CC /* ScrollLayer.h */,
+				4AC95D052191790A006745CC /* ScrollLayer.m */,
+				4AC95D1121918B4F006745CC /* TiledView.h */,
+				4AC95D1221918B4F006745CC /* TiledView.m */,
+				4A265667215E0A9900F8A92F /* CAShapeLayerViewController.h */,
+				4A265668215E0A9900F8A92F /* CAShapeLayerViewController.m */,
+				4A26566A215E0F8100F8A92F /* CAtextLayerViewController.h */,
+				4A26566B215E0F8100F8A92F /* CAtextLayerViewController.m */,
+				4A29C63C216AF93C00598D3C /* CATransformLayerViewController.h */,
+				4A29C63D216AF93C00598D3C /* CATransformLayerViewController.m */,
+				4A1BB2D2215F27B6005D5A40 /* CAGradientLayerViewController.h */,
+				4A1BB2D3215F27B6005D5A40 /* CAGradientLayerViewController.m */,
+				4A24602A216B30DA00FA2B25 /* CAReplicatorlayerViewController.h */,
+				4A24602B216B30DA00FA2B25 /* CAReplicatorlayerViewController.m */,
+				4AC95D0721917C0D006745CC /* CAScrollLayerViewController.h */,
+				4AC95D0821917C0D006745CC /* CAScrollLayerViewController.m */,
+				4AC95D0A219187BE006745CC /* CAEmitterLayerViewController.h */,
+				4AC95D0B219187BE006745CC /* CAEmitterLayerViewController.m */,
+				4AC95D1421918DA6006745CC /* CATiledLayerViewController.h */,
+				4AC95D1521918DA6006745CC /* CATiledLayerViewController.m */,
 				4A265635215E069800F8A92F /* AppDelegate.h */,
 				4A265636215E069800F8A92F /* AppDelegate.m */,
 				4A265638215E069800F8A92F /* ViewController.h */,
 				4A265639215E069800F8A92F /* ViewController.m */,
-				4A26563B215E069800F8A92F /* Main.storyboard */,
 				4A26563E215E069900F8A92F /* Assets.xcassets */,
+				4A26563B215E069800F8A92F /* Main.storyboard */,
 				4A265640215E069900F8A92F /* LaunchScreen.storyboard */,
 				4A265643215E069900F8A92F /* Info.plist */,
 				4A265644215E069900F8A92F /* main.m */,
+				4AC95D0F21918A0C006745CC /* DazStarOutline.png */,
+				4AC95D0D219189FD006745CC /* DazRing.png */,
 			);
 			path = CoreAnimationDemo;
 			sourceTree = "<group>";
@@ -236,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A265642215E069900F8A92F /* LaunchScreen.storyboard in Resources */,
+				4AC95D0E219189FD006745CC /* DazRing.png in Resources */,
 				4A26563F215E069900F8A92F /* Assets.xcassets in Resources */,
+				4AC95D1021918A0D006745CC /* DazStarOutline.png in Resources */,
 				4A26563D215E069800F8A92F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +320,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A29C63E216AF93C00598D3C /* CATransformLayerViewController.m in Sources */,
+				4A265669215E0A9900F8A92F /* CAShapeLayerViewController.m in Sources */,
+				4A26566C215E0F8100F8A92F /* CAtextLayerViewController.m in Sources */,
+				4AC95D1321918B4F006745CC /* TiledView.m in Sources */,
+				4A24602C216B30DA00FA2B25 /* CAReplicatorlayerViewController.m in Sources */,
 				4A26563A215E069800F8A92F /* ViewController.m in Sources */,
 				4A265645215E069900F8A92F /* main.m in Sources */,
+				4AC95D0C219187BE006745CC /* CAEmitterLayerViewController.m in Sources */,
+				4A1BB2D4215F27B6005D5A40 /* CAGradientLayerViewController.m in Sources */,
 				4A265637215E069800F8A92F /* AppDelegate.m in Sources */,
+				4AC95D062191790A006745CC /* ScrollLayer.m in Sources */,
+				4AC95D1621918DA6006745CC /* CATiledLayerViewController.m in Sources */,
+				4AC95D0921917C0D006745CC /* CAScrollLayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

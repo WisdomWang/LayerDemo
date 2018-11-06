@@ -10,6 +10,8 @@
 
 @interface CAGradientLayerViewController ()
 
+@property (nonatomic,strong)UIView *containerView;
+
 @end
 
 @implementation CAGradientLayerViewController
@@ -17,6 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.navigationItem.title = @"CAGradientLayer";
+    self.view.backgroundColor = [UIColor whiteColor];
+    _containerView = [[UIView alloc]initWithFrame:CGRectMake(50, 100, self.view.frame.size.width-150, 200)];
+    [self.view addSubview:_containerView];
+    CAGradientLayer *gradientLayer = [CAGradientLayer layer];
+    gradientLayer.frame = self.containerView.bounds;
+    [self.containerView.layer addSublayer:gradientLayer];
+    
+   // gradientLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor greenColor].CGColor];
+    gradientLayer.colors = @[(__bridge id)[UIColor redColor].CGColor,(__bridge id)[UIColor greenColor].CGColor,(__bridge id)[UIColor blueColor].CGColor];
+    gradientLayer.locations = @[@0.0,@0.5,@0.5];
+    gradientLayer.startPoint = CGPointMake(0, 0);
+    gradientLayer.endPoint = CGPointMake(1, 1);
 }
 
 - (void)didReceiveMemoryWarning {
